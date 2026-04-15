@@ -1,0 +1,101 @@
+header {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+h3, h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+b {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+nav a {
+    color: darkblue;
+    margin: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blueviolet;
+    background-color: darkgrey;
+}
+
+footer {
+    color: darkblue;
+    font-size: large;
+    font-style: italic;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+tr:hover {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+button {
+    color: white;
+    background-color: darkblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: blueviolet;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    background-color: darkgray;
+}
+
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
